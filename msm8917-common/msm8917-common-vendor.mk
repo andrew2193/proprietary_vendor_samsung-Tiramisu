@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/samsung/msm8917-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/samsung/msm8917-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libutils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils-v30.so \
     vendor/samsung/msm8917-common/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/samsung/msm8917-common/proprietary/lib/vendor.display.color@1.1.so:system/lib/vendor.display.color@1.1.so \
     vendor/samsung/msm8917-common/proprietary/lib/vendor.display.color@1.2.so:system/lib/vendor.display.color@1.2.so \
