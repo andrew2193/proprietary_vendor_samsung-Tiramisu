@@ -267,10 +267,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/grippower.info:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/grippower.info \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.candycamera.android.filter.libcookiencream.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.candycamera.android.filter.libcookiencream.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.candycamera.android.filter.libeveryday.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.candycamera.android.filter.libeveryday.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.linecorp.b612.filter.libriddle.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.linecorp.b612.filter.libriddle.so \
