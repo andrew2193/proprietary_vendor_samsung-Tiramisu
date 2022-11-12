@@ -1143,6 +1143,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_vndk.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsomp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomp.camera.samsung.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
