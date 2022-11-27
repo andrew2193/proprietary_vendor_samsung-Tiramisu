@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mdfpp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mdfpp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so
 endif
 
 PRODUCT_COPY_FILES += \
