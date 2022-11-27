@@ -19,10 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mdfpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mdfpp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so
 endif
+
+# XXX J2 ended with N, so it does not have proper support for TUI of mdfpp, but somehow gatekeeper registers OK.
+# Therefore we put this to make it registered fine.
+PRODUCT_COPY_FILES += vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mdfpp.so 
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
