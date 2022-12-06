@@ -118,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
@@ -207,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
@@ -1239,7 +1237,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.miscpower@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
