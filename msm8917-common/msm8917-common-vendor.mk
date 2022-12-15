@@ -26,7 +26,13 @@ endif
 
 # XXX J2 ended with N, so it does not have proper support for TUI of mdfpp, but somehow gatekeeper registers OK.
 # Therefore we put this to make it registered fine.
-PRODUCT_COPY_FILES += vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mdfpp.so 
+# PRODUCT_COPY_FILES += vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mdfpp.so 
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-engine-wifi-hidl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libwifiucmkeystorehal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifiucmkeystorehal.so \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
@@ -878,12 +884,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster2_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster2_mdfpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper_vendor.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
@@ -900,11 +900,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmaccutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmaccutils.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmackeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmackeymaster_portable.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmackeymaster_staging.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmackeymaster_staging.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacprotobuf-cpp-lite.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacprotobuf-cpp-full.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacsoftkeymasterdevice.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmediacodecservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediacodecservice.so \
@@ -1076,7 +1071,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib.so \
@@ -1121,7 +1115,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsemcamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemcamera_jni.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster3device.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmart_cropping.camera.samsung.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsnap_caffe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_caffe.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsnap_caffe_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_caffe_wrapper.so \
@@ -1242,8 +1235,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2_vendor.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.security.skeymaster@3.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.skeymaster@3.0_vendor.so
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2_vendor.so
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -1251,5 +1243,4 @@ PRODUCT_PACKAGES += \
     libril \
     libsdm-disp-vndapis \
     libthermalclient \
-    TimeService \
-    com.qualcomm.location
+    TimeService
