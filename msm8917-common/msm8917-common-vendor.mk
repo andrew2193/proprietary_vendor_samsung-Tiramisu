@@ -1236,6 +1236,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.configsvc@1.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacprotobuf-cpp-lite.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacprotobuf-cpp-full.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2_vendor.so
 
 PRODUCT_PACKAGES += \
